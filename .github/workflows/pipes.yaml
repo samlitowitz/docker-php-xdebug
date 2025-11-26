@@ -43,4 +43,4 @@ jobs:
           ./scripts/git-has-changes.sh
       - name: Build and verify CLI docker images
         run: |
-          ./scripts/build-and-verify-images.sh mobtitude/php-xdebug
+          ./scripts/build-and-verify-cli-images.sh mobtitude/php-xdebug
